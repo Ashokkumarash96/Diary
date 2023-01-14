@@ -1,0 +1,82 @@
+body {
+  background-color: beige;
+  margin: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+  display: grid;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+textarea {
+  resize: none;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.title {
+  color: #000000;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.entry-textbox {
+  font-size: 3rem;
+  width: 40rem;
+  height: 30rem;
+  padding: 1em;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 0.5em;
+  border-radius: 25px;
+  background-color: #939c1b;
+  border: unset;
+  border: none;
+  border-color: none;
+}
+
+.entry-textbox:focus {
+  outline: none;
+}
+
+#entryForm .button {
+  font-size: 1.7rem;
+  background-color: rgb(30, 42, 115);
+  color: white;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 1em;
+  margin-left: 40%;
+  margin-bottom: 1rem;
+}
+
+#entryForm .button:hover {
+  background-color: white;
+  color: rgb(30, 42, 115);
+}
+
+#entries {
+  background: #02d5ff6c;
+  color: #000000;
+  font-size: 2rem;
+  border-radius: 25px;
+  padding: 2em;
+  width: 85%;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.entries-nav {
+  padding-bottom: 1em;
+}
+
+.display-entry-button {
+  margin: .1em;
+  font-size: 1.7rem;
+}
+
+.display-entry-button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
